@@ -1,1 +1,10 @@
-# practice_git
+測試md
+
+* 123
+
+
+```ruby
+def hello
+  p 'Hi, friend'
+end
+```
