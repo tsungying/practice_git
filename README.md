@@ -7,3 +7,7 @@ git remote show
 ```
 git remote -v
 ```
+* 如何移除已加進來的遠端儲存庫
+```
+git remote remove origin
+```
