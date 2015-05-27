@@ -1,15 +1,9 @@
 Git 指令
-* 秀出現在有多少個遠端 Repository 註：show 可省略
+* 瞭解目前已加進來的遠端儲存庫名稱。註：show 可省略
 ```
 git remote show
 ```
-* 秀出每個 remote 的 url
+* 加上 ```-v``` 參數，將會在名稱後方顯示其URL：
 ```
 git remote -v
-```
-
-```ruby
-def hello
-  p 'Hi, friend'
-end
 ```
