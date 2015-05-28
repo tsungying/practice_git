@@ -11,3 +11,9 @@ git remote -v
 ```
 git remote remove origin
 ```
+* 停止追蹤某檔案
+
+先將該檔案加入.gitignore中，再執行
+```
+git rm --cached filename
+```
