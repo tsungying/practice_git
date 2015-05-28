@@ -1,4 +1,4 @@
-### Git 指令
+# Git 指令
 * 瞭解目前已加進來的遠端儲存庫名稱。註：show 可省略
 ```
 git remote show
@@ -16,4 +16,14 @@ git remote remove origin
 先將該檔案加入.gitignore中，再執行
 ```
 git rm --cached filename
+```
+* ##### push 專案到遠端倉庫存放
+
+1. 先在想要的遠端倉庫上建立新倉庫
+
+2. 再把代碼 push 到新倉庫的路徑
+3. origin 可以用其他單字替換
+
+```
+git remote add origin git@bitbucket.org:<username>/toy_app.git
 ```
