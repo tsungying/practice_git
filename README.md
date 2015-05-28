@@ -1,4 +1,4 @@
-Git 指令
+### Git 指令
 * 瞭解目前已加進來的遠端儲存庫名稱。註：show 可省略
 ```
 git remote show
