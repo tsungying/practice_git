@@ -24,6 +24,11 @@ git rm --cached filename
 2. 再把代碼 push 到新倉庫的路徑
 3. origin 可以用其他單字替換
 
+Ex：git remote add origin https://github.com/tsungying/senqi.git
 ```
 git remote add origin git@bitbucket.org:<username>/toy_app.git
+```
+* 第一次 push 到遠端倉庫時要記得加 ```-u```
+```
+git push -u origin master
 ```
