@@ -32,3 +32,7 @@ git remote add origin git@bitbucket.org:<username>/toy_app.git
 ```
 git push -u origin master
 ```
+* How to get ssh public key ?
+```
+cat ~/.ssh/id_rsa.pub
+```
