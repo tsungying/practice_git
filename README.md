@@ -36,3 +36,7 @@ git push -u origin master
 ```
 cat ~/.ssh/id_rsa.pub
 ```
+* 如何編輯最後一次的 commit 內容
+```
+git commit --amend
+```
